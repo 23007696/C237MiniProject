@@ -23,10 +23,10 @@ const connection = mysql.createConnection({
     // password: '',
     // database: 'products'
 
-    host: 'sql.freedb.tech',
-    user: 'freedb_23007696',
-    password: 'HbY8g*59&%j$7zz',
-    database: 'freedb_techxproject'
+    host: 'db4free.net',
+    user: 'cwminiproject',
+    password: '12345678',
+    database: 'techxminiproject'
 });
 
 connection.connect((err) => {
