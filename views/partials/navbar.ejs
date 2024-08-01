@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">TechX</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/categories/laptops">Laptops</a></li>
+                        <li><a class="dropdown-item" href="/categories/phones">Phones</a></li>
+                        <li><a class="dropdown-item" href="/categories/accessories">Accessories</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/addProductForm">Add Product</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex" action="/search" method="GET">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/account">Account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cart">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
